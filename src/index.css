@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'Fira Code', monospace;
+
+  --color-navy: #0a192f;
+  --color-light-navy: #112240;
+  --color-lightest-navy: #233554;
+  --color-slate: #ffffff;
+  --color-light-slate: #a8b2d1;
+  --color-lightest-slate: #ffc923;
+  --color-white: #ffffff;
+  --color-green: #ffc923;
+  --color-vibrant-blue: #1f42d1;
+
+  /* --shadow-* namespace for defining box shadows */
+  --shadow-glow: 0 4px 14px 0 rgba(199, 210, 254, 0.25);
+}
+
+@layer base {
+  body {
+    @apply bg-navy text-slate antialiased font-sans;
+  }
+}

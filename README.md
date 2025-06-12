@@ -1,12 +1,45 @@
-# React + Vite
+## Galvan AI - Landing Page
+A modern, interactive landing page showcasing AI business services with sophisticated animations and responsive design.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Design Process
+Interactive landing page for Galvan AI to present company information, and testimonials through an engaging web experience.
 
-Currently, two official plugins are available:
+## Color Scheme
+- Dark Theme: NavyBlue with Yellow color palette with professional aesthetics
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Responsiveness Strategy
+- Mobile-First Approach: Tailwind CSS utility classes for adaptive layouts
 
-## Expanding the ESLint configuration
+- Breakpoint System: Custom media queries for desktop/mobile behavior
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Animation Approach
+- Loading Sequence: Staggered preloader animations with smooth transitions
+
+- Scroll-Driven Effects: Parallax animations triggered by scroll progress
+
+- Infinite Carousel: Seamless testimonials carousel
+
+## Technology Stack
+## Core Framework
+-React 19.1.0
+
+-Vite 6.3.5
+
+## Styling & Animation
+-Tailwind CSS 4.1.8
+
+-Framer Motion 12.16.0
+
+## Key Features
+-Responsive design across all devices
+
+-Smooth scroll-based animations
+
+-Interactive testimonials carousel
+
+-Professional dark theme design
+
+-Fast loading with optimized build process
+
+## Live Application
+- https://Faareh-Ahmed.github.io/Galvan-AI

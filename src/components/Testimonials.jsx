@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/solid';
 import useMediaQuery from '../hooks/useMediaQuery';
+import React from 'react';
 
 const testimonialsData = [
   { id: 1, quote: "Galvan AI transformed our data analytics. Their platform is intuitive and incredibly powerful. We saw a 40% increase in operational efficiency.", name: "Jane Doe", title: "CEO, Tech Solutions Inc.", avatar: "https://randomuser.me/api/portraits/women/12.jpg" },

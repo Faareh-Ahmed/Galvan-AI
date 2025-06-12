@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
+import React from 'react';
 
 import bgImage1 from '../assets/home-one-img3.jpg';
 import bgImage3 from '../assets/home-one-img2.jpg';

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 import logoSrc from '../assets/logo-1.png';
+import React from 'react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

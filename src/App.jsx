@@ -7,6 +7,7 @@ import About from './components/About';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import Preloader from './components/Preloader';
+import React from 'react';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);

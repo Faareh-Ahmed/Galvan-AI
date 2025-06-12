@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import logoSrc from '../assets/logo-1.png'; 
+import React from 'react';
 
 const Footer = () => {
   return (
